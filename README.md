@@ -19,7 +19,6 @@ Antes de começar, certifique-se de ter instalado:
 
 - PHP >= 8.3
 - Composer
-- MySQL ou outro banco de dados compatível
 - Servidor web (Apache/Nginx) ou Laravel Valet/Laragon
 
 ## ⚙️ Instalação
@@ -41,16 +40,13 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 4. Configure a chave da API VoiceRSS
+**Pronto!** A aplicação já está configurada com uma chave de API VoiceRSS funcional para testes.
 
-No arquivo `.env`, adicione sua chave da API:
-```
-VOICERSS_API_KEY=sua_chave_aqui
-```
+> **Chave de API incluída:** `7ae3271be6b543459f7a500b9369c514`
+> 
+> Esta chave já está configurada no `.env.example` para facilitar os testes. Se preferir usar sua própria chave gratuita, obtenha em: https://www.voicerss.org/api/
 
-Para obter uma chave gratuita, acesse: https://www.voicerss.org/api/
-
-### 5. Inicie o servidor
+### 4. Inicie o servidor
 ```bash
 php artisan serve
 ```
