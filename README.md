@@ -8,8 +8,8 @@ Este projeto foi desenvolvido como teste técnico para estágio em Desenvolvimen
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Laravel 11.x** - Framework PHP
-- **PHP 8.2+**
+- **Laravel 12.x** - Framework PHP
+- **PHP 8.3+**
 - **VoiceRSS API** - Text-to-Speech
 - **HTML5/CSS3/JavaScript** - Interface do usuário
 
@@ -17,7 +17,7 @@ Este projeto foi desenvolvido como teste técnico para estágio em Desenvolvimen
 
 Antes de começar, certifique-se de ter instalado:
 
-- PHP >= 8.2
+- PHP >= 8.3
 - Composer
 - MySQL ou outro banco de dados compatível
 - Servidor web (Apache/Nginx) ou Laravel Valet/Laragon
